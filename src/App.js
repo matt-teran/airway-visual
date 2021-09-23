@@ -1,24 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+//mui
+import LocalizationProvider from "@mui/lab/LocalizationProvider";
+import AdapterDateFns from "@mui/lab/AdapterDateFns";
+
+import ThemeProvider from "@mui/material/styles/ThemeProvider";
+import createTheme from "@mui/material/styles/createTheme";
+//react-globe.gl
+import Globe from "react-globe.gl";
+//custom components
+import Controls from "./Controls";
+//assets
+import earth from "./earth.jpg";
+import { Box } from "@mui/material";
+
+const darkTheme = createTheme({
+  palette: {
+    mode: "dark",
+  },
+});
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeProvider theme={darkTheme}>
+      <LocalizationProvider dateAdapter={AdapterDateFns}>
+        <Controls />
+        <Globe globeImageUrl={earth} />
+      </LocalizationProvider>
+    </ThemeProvider>
   );
 }
 
