@@ -1,5 +1,5 @@
 //react
-import { useState } from "react";
+import { useState, useEffect } from "react";
 //mui
 import Box from "@mui/material/Box";
 import Card from "@mui/material/Card";
@@ -13,6 +13,8 @@ import Switch from "@mui/material/Switch";
 import DatePicker from "@mui/lab/DatePicker";
 import FormControlLabel from "@mui/material/FormControlLabel";
 import TextField from "@mui/material/TextField";
+//date-fns
+import isToday from "date-fns/isToday";
 
 import makeStyles from "@mui/styles/makeStyles";
 
@@ -39,7 +41,12 @@ const Controls = () => {
   const classes = useStyles();
   const [depCity, setDepCity] = useState("");
   const [arrCity, setArrCity] = useState("");
-  const [date, setDate] = useState();
+  const [checked, setChecked] = useState(true);
+  const [date, setDate] = useState(new Date());
+
+  useEffect(() => {
+    if (!isToday(date)) setChecked(false);
+  }, [date]);
 
   const texasCities = [
     { label: "Corpus Christi" },
@@ -90,12 +97,25 @@ const Controls = () => {
           </Box>
 
           <DatePicker
-            onChange={(value) => {setDate(value)}}
+            onChange={(value) => {
+              setDate(value);
+            }}
             renderInput={(params) => <TextField {...params} label="Date" />}
+            value={date}
           />
 
-          <FormControlLabel control={<Switch />} label="Active Flights" />
-          <Button variant="contained">Search</Button>
+          <FormControlLabel
+            control={<Switch checked={checked} onChange={ev => {setChecked(ev.target.checked)}} disabled={!isToday(date)} />}
+            label="Active Flights"
+          />
+          <Button
+            variant="contained"
+            onClick={() => {
+              console.log(date);
+            }}
+          >
+            Search
+          </Button>
         </CardActions>
       </CardContent>
     </Card>
