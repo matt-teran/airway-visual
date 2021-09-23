@@ -1,22 +1,25 @@
+//react
+import { useState } from "react";
+//mui
 import Box from "@mui/material/Box";
 import Card from "@mui/material/Card";
 import CardHeader from "@mui/material/CardHeader";
 import CardContent from "@mui/material/CardContent";
 import CardActions from "@mui/material/CardActions";
+//inputs
 import Autocomplete from "@mui/material/Autocomplete";
 import Button from "@mui/material/Button";
 import Switch from "@mui/material/Switch";
 import DatePicker from "@mui/lab/DatePicker";
 import FormControlLabel from "@mui/material/FormControlLabel";
 import TextField from "@mui/material/TextField";
-import Typography from "@mui/material/Typography";
 
 import makeStyles from "@mui/styles/makeStyles";
 
 const useStyles = makeStyles({
   container: {
-      marginTop: '2vw',
-      marginLeft: '2vw',
+    marginTop: "2vw",
+    marginLeft: "2vw",
     width: "27vw",
     position: "fixed",
     zIndex: 1,
@@ -34,6 +37,10 @@ const useStyles = makeStyles({
 
 const Controls = () => {
   const classes = useStyles();
+  const [depCity, setDepCity] = useState("");
+  const [arrCity, setArrCity] = useState("");
+  const [date, setDate] = useState();
+
   const texasCities = [
     { label: "Corpus Christi" },
     { label: "Houston" },
@@ -64,6 +71,10 @@ const Controls = () => {
               renderInput={(params) => (
                 <TextField {...params} label="Departure City" />
               )}
+              onInputChange={(ev, value) => {
+                setDepCity(value);
+              }}
+              disabled={arrCity !== ""}
             />
             <Autocomplete
               className={classes.citySelector}
@@ -71,10 +82,15 @@ const Controls = () => {
               renderInput={(params) => (
                 <TextField {...params} label="Arrival City" />
               )}
+              onInputChange={(ev, value) => {
+                setArrCity(value);
+              }}
+              disabled={depCity !== ""}
             />
           </Box>
 
           <DatePicker
+            onChange={(value) => {setDate(value)}}
             renderInput={(params) => <TextField {...params} label="Date" />}
           />
 

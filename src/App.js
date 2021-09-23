@@ -10,7 +10,6 @@ import Globe from "react-globe.gl";
 import Controls from "./Controls";
 //assets
 import earth from "./earth.jpg";
-import { Box } from "@mui/material";
 
 const darkTheme = createTheme({
   palette: {
