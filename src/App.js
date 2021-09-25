@@ -27,17 +27,6 @@ function App() {
   const [arcsData, setArcsData] = useState([]);
 
   const searchHandler = (airport, date, activeFlights, isDeparture) => {
-    // setArcsData([
-    //   {
-    //     startLat: -97.5011978149414,
-    //     startLng: 27.77039909362793,
-    //     endLat: -95.34140014648438,
-    //     endLng: 29.984399795532227,
-    //     color: "blue",
-    //     // label: flight.departure.iata + "=>" + flight.arrival.iata,
-    //     stroke: 10,
-    //   },
-    // ]);
     let flights;
     const iata = isDeparture ? "dep_iata" : "arr_iata";
     axios
@@ -53,7 +42,7 @@ function App() {
         flights = res.data.data.reduce((result, flight) => {
           if (
             airports.findIndex(
-              (airport) => airport.iata === flight.arrival.iata
+              (airport) => isDeparture ? airport.iata === flight.arrival.iata : airport.iata === flight.departure.iata
             ) !== -1
           ) {
             result.push({
@@ -108,7 +97,7 @@ function App() {
         arcsData={arcsData}
         arcColor={"color"}
         // arcStroke={"stroke"}
-        // arcLabel={"label"}
+        arcLabel={"label"}
         arcDashInitialGap={() => arcInitialGap}
         arcsTransitionDuration={0}
         globeImageUrl={earth}

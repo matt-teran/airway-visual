@@ -112,7 +112,13 @@ const Controls = (props) => {
             variant="contained"
             onClick={() =>
               props.search(
-                airports.find((airport) => airport.label === depCity),
+                airports.find((airport) => {
+                  if (Boolean(depCity)) {
+                    return airport.label === depCity;
+                  } else {
+                    return airport.label === arrCity;
+                  }
+                }),
                 date,
                 checked,
                 Boolean(depCity)
