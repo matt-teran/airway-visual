@@ -6,6 +6,7 @@ import Card from "@mui/material/Card";
 import CardHeader from "@mui/material/CardHeader";
 import CardContent from "@mui/material/CardContent";
 import CardActions from "@mui/material/CardActions";
+
 //inputs
 import Autocomplete from "@mui/material/Autocomplete";
 import Button from "@mui/material/Button";
@@ -15,8 +16,11 @@ import FormControlLabel from "@mui/material/FormControlLabel";
 import TextField from "@mui/material/TextField";
 //date-fns
 import isToday from "date-fns/isToday";
-
+//styles
 import makeStyles from "@mui/styles/makeStyles";
+//custom components
+//other
+import airports from "./airports.json";
 
 const useStyles = makeStyles({
   container: {
@@ -48,18 +52,6 @@ const Controls = () => {
     if (!isToday(date)) setChecked(false);
   }, [date]);
 
-  const texasCities = [
-    { label: "Corpus Christi" },
-    { label: "Houston" },
-    { label: "San Antonio" },
-    { label: "Austin" },
-    { label: "Dallas" },
-    { label: "McAllen" },
-    { label: "Laredo" },
-    { label: "Harlingen" },
-    { label: "Brownsville" },
-  ];
-
   return (
     <Card className={classes.container}>
       <CardHeader
@@ -74,7 +66,7 @@ const Controls = () => {
           <Box sx={{ display: "flex", marginBottom: 2 }}>
             <Autocomplete
               className={classes.citySelector}
-              options={texasCities}
+              options={airports}
               renderInput={(params) => (
                 <TextField {...params} label="Departure City" />
               )}
@@ -85,7 +77,7 @@ const Controls = () => {
             />
             <Autocomplete
               className={classes.citySelector}
-              options={texasCities}
+              options={airports}
               renderInput={(params) => (
                 <TextField {...params} label="Arrival City" />
               )}
@@ -105,13 +97,21 @@ const Controls = () => {
           />
 
           <FormControlLabel
-            control={<Switch checked={checked} onChange={ev => {setChecked(ev.target.checked)}} disabled={!isToday(date)} />}
+            control={
+              <Switch
+                checked={checked}
+                onChange={(ev) => {
+                  setChecked(ev.target.checked);
+                }}
+                disabled={!isToday(date)}
+              />
+            }
             label="Active Flights"
           />
           <Button
             variant="contained"
             onClick={() => {
-              console.log(date);
+              console.log(depCity || arrCity);
             }}
           >
             Search
