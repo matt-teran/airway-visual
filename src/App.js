@@ -38,7 +38,6 @@ function App() {
         },
       })
       .then((res) => {
-        console.log(res.data.data);
         flights = res.data.data.reduce((result, flight) => {
           if (
             airports.findIndex(
@@ -72,8 +71,8 @@ function App() {
         return flights;
       })
       .then((res) => {
-        console.log(flights);
         setArcsData(flights);
+        setArcInitialGap(1)
       })
       .catch((err) => {
         console.log(err);
@@ -107,3 +106,5 @@ function App() {
 }
 
 export default App;
+
+//button should reset arcInitialGap animation
