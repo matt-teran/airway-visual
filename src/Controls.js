@@ -110,6 +110,7 @@ const Controls = (props) => {
           />
           <Button
             variant="contained"
+            disabled={!Boolean(depCity) && !Boolean(arrCity)}
             onClick={() =>
               props.search(
                 airports.find((airport) => {
