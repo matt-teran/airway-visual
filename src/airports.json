@@ -2,1225 +2,1225 @@
   {
     "iata": "ABQ",
     "label": "Albuquerque International Sunport",
-    "lat": "-106.609001",
-    "lng": "35.040199"
+    "lng": "-106.609001",
+    "lat": "35.040199"
   },
   {
     "iata": "ACA",
     "label": "General Juan N Alvarez International Airport",
-    "lat": "-99.75399780273438",
-    "lng": "16.757099151611328"
+    "lng": "-99.75399780273438",
+    "lat": "16.757099151611328"
   },
   {
     "iata": "ADW",
     "label": "Joint Base Andrews",
-    "lat": "-76.866997",
-    "lng": "38.810799"
+    "lng": "-76.866997",
+    "lat": "38.810799"
   },
   {
     "iata": "AFW",
     "label": "Fort Worth Alliance Airport",
-    "lat": "-97.31880187990001",
-    "lng": "32.9875984192"
+    "lng": "-97.31880187990001",
+    "lat": "32.9875984192"
   },
   {
     "iata": "AGS",
     "label": "Augusta Regional At Bush Field",
-    "lat": "-81.9645004272461",
-    "lng": "33.36989974975586"
+    "lng": "-81.9645004272461",
+    "lat": "33.36989974975586"
   },
   {
     "iata": "AMA",
     "label": "Rick Husband Amarillo International Airport",
-    "lat": "-101.706001",
-    "lng": "35.219398"
+    "lng": "-101.706001",
+    "lat": "35.219398"
   },
   {
     "iata": "ANC",
     "label": "Ted Stevens Anchorage International Airport",
-    "lat": "-149.99600219726562",
-    "lng": "61.174400329589844"
+    "lng": "-149.99600219726562",
+    "lat": "61.174400329589844"
   },
   {
     "iata": "ATL",
     "label": "Hartsfield Jackson Atlanta International Airport",
-    "lat": "-84.428101",
-    "lng": "33.6367"
+    "lng": "-84.428101",
+    "lat": "33.6367"
   },
   {
     "iata": "AUS",
     "label": "Austin Bergstrom International Airport",
-    "lat": "-97.6698989868164",
-    "lng": "30.194499969482422"
+    "lng": "-97.6698989868164",
+    "lat": "30.194499969482422"
   },
   {
     "iata": "AVL",
     "label": "Asheville Regional Airport",
-    "lat": "-82.541801",
-    "lng": "35.436199"
+    "lng": "-82.541801",
+    "lat": "35.436199"
   },
   {
     "iata": "BAB",
     "label": "Beale Air Force Base",
-    "lat": "-121.43699646",
-    "lng": "39.136100769"
+    "lng": "-121.43699646",
+    "lat": "39.136100769"
   },
   {
     "iata": "BAD",
     "label": "Barksdale Air Force Base",
-    "lat": "-93.6626968384",
-    "lng": "32.5018005371"
+    "lng": "-93.6626968384",
+    "lat": "32.5018005371"
   },
   {
     "iata": "BDL",
     "label": "Bradley International Airport",
-    "lat": "-72.68319702149999",
-    "lng": "41.9388999939"
+    "lng": "-72.68319702149999",
+    "lat": "41.9388999939"
   },
   {
     "iata": "BFI",
     "label": "Boeing Field King County International Airport",
-    "lat": "-122.302001953125",
-    "lng": "47.529998779296875"
+    "lng": "-122.302001953125",
+    "lat": "47.529998779296875"
   },
   {
     "iata": "BGR",
     "label": "Bangor International Airport",
-    "lat": "-68.8281021118164",
-    "lng": "44.80739974975586"
+    "lng": "-68.8281021118164",
+    "lat": "44.80739974975586"
   },
   {
     "iata": "BHM",
     "label": "Birmingham-Shuttlesworth International Airport",
-    "lat": "-86.75350189",
-    "lng": "33.56290054"
+    "lng": "-86.75350189",
+    "lat": "33.56290054"
   },
   {
     "iata": "BIL",
     "label": "Billings Logan International Airport",
-    "lat": "-108.54299926757812",
-    "lng": "45.807701110839844"
+    "lng": "-108.54299926757812",
+    "lat": "45.807701110839844"
   },
   {
     "iata": "BLV",
     "label": "Scott AFB/Midamerica Airport",
-    "lat": "-89.835197",
-    "lng": "38.5452"
+    "lng": "-89.835197",
+    "lat": "38.5452"
   },
   {
     "iata": "BMI",
     "label": "Central Illinois Regional Airport at Bloomington-Normal",
-    "lat": "-88.91590118",
-    "lng": "40.47710037"
+    "lng": "-88.91590118",
+    "lat": "40.47710037"
   },
   {
     "iata": "BNA",
     "label": "Nashville International Airport",
-    "lat": "-86.6781997680664",
-    "lng": "36.1245002746582"
+    "lng": "-86.6781997680664",
+    "lat": "36.1245002746582"
   },
   {
     "iata": "BOI",
     "label": "Boise Air Terminal/Gowen Field",
-    "lat": "-116.223",
-    "lng": "43.5644"
+    "lng": "-116.223",
+    "lat": "43.5644"
   },
   {
     "iata": "BOS",
     "label": "General Edward Lawrence Logan International Airport",
-    "lat": "-71.00520325",
-    "lng": "42.36429977"
+    "lng": "-71.00520325",
+    "lat": "42.36429977"
   },
   {
     "iata": "BUF",
     "label": "Buffalo Niagara International Airport",
-    "lat": "-78.73220062",
-    "lng": "42.94049835"
+    "lng": "-78.73220062",
+    "lat": "42.94049835"
   },
   {
     "iata": "BWI",
     "label": "Baltimore/Washington International Thurgood Marshall Airport",
-    "lat": "-76.668297",
-    "lng": "39.1754"
+    "lng": "-76.668297",
+    "lat": "39.1754"
   },
   {
     "iata": "BZE",
     "label": "Philip S. W. Goldson International Airport",
-    "lat": "-88.30819702148438",
-    "lng": "17.539100646972656"
+    "lng": "-88.30819702148438",
+    "lat": "17.539100646972656"
   },
   {
     "iata": "CAE",
     "label": "Columbia Metropolitan Airport",
-    "lat": "-81.11949920654297",
-    "lng": "33.93880081176758"
+    "lng": "-81.11949920654297",
+    "lat": "33.93880081176758"
   },
   {
     "iata": "CBM",
     "label": "Columbus Air Force Base",
-    "lat": "-88.44380187990001",
-    "lng": "33.6437988281"
+    "lng": "-88.44380187990001",
+    "lat": "33.6437988281"
   },
   {
     "iata": "CHA",
     "label": "Lovell Field",
-    "lat": "-85.20379638671875",
-    "lng": "35.035301208496094"
+    "lng": "-85.20379638671875",
+    "lat": "35.035301208496094"
   },
   {
     "iata": "CHS",
     "label": "Charleston Air Force Base-International Airport",
-    "lat": "-80.04049683",
-    "lng": "32.89860153"
+    "lng": "-80.04049683",
+    "lat": "32.89860153"
   },
   {
     "iata": "CID",
     "label": "The Eastern Iowa Airport",
-    "lat": "-91.71080017089844",
-    "lng": "41.884700775146484"
+    "lng": "-91.71080017089844",
+    "lat": "41.884700775146484"
   },
   {
     "iata": "CLE",
     "label": "Cleveland Hopkins International Airport",
-    "lat": "-81.8498001099",
-    "lng": "41.4117012024"
+    "lng": "-81.8498001099",
+    "lat": "41.4117012024"
   },
   {
     "iata": "CLT",
     "label": "Charlotte Douglas International Airport",
-    "lat": "-80.94309997558594",
-    "lng": "35.2140007019043"
+    "lng": "-80.94309997558594",
+    "lat": "35.2140007019043"
   },
   {
     "iata": "CMH",
     "label": "John Glenn Columbus International Airport",
-    "lat": "-82.891899",
-    "lng": "39.998001"
+    "lng": "-82.891899",
+    "lat": "39.998001"
   },
   {
     "iata": "COS",
     "label": "City of Colorado Springs Municipal Airport",
-    "lat": "-104.700996",
-    "lng": "38.805801"
+    "lng": "-104.700996",
+    "lat": "38.805801"
   },
   {
     "iata": "CRP",
     "label": "Corpus Christi International Airport",
-    "lat": "-97.5011978149414",
-    "lng": "27.77039909362793"
+    "lng": "-97.5011978149414",
+    "lat": "27.77039909362793"
   },
   {
     "iata": "CRW",
     "label": "Yeager Airport",
-    "lat": "-81.59320068359375",
-    "lng": "38.37310028076172"
+    "lng": "-81.59320068359375",
+    "lat": "38.37310028076172"
   },
   {
     "iata": "CUN",
     "label": "CancÃºn International Airport",
-    "lat": "-86.8770980835",
-    "lng": "21.036500930800003"
+    "lng": "-86.8770980835",
+    "lat": "21.036500930800003"
   },
   {
     "iata": "CVG",
     "label": "Cincinnati Northern Kentucky International Airport",
-    "lat": "-84.667801",
-    "lng": "39.048801"
+    "lng": "-84.667801",
+    "lat": "39.048801"
   },
   {
     "iata": "CVS",
     "label": "Cannon Air Force Base",
-    "lat": "-103.321998596",
-    "lng": "34.3828010559"
+    "lng": "-103.321998596",
+    "lat": "34.3828010559"
   },
   {
     "iata": "DAB",
     "label": "Daytona Beach International Airport",
-    "lat": "-81.058098",
-    "lng": "29.179899"
+    "lng": "-81.058098",
+    "lat": "29.179899"
   },
   {
     "iata": "DAL",
     "label": "Dallas Love Field",
-    "lat": "-96.851799",
-    "lng": "32.847099"
+    "lng": "-96.851799",
+    "lat": "32.847099"
   },
   {
     "iata": "DAY",
     "label": "James M Cox Dayton International Airport",
-    "lat": "-84.21939849853516",
-    "lng": "39.902400970458984"
+    "lng": "-84.21939849853516",
+    "lat": "39.902400970458984"
   },
   {
     "iata": "DBQ",
     "label": "Dubuque Regional Airport",
-    "lat": "-90.70950317",
-    "lng": "42.40200043"
+    "lng": "-90.70950317",
+    "lat": "42.40200043"
   },
   {
     "iata": "DCA",
     "label": "Ronald Reagan Washington National Airport",
-    "lat": "-77.037697",
-    "lng": "38.8521"
+    "lng": "-77.037697",
+    "lat": "38.8521"
   },
   {
     "iata": "DEN",
     "label": "Denver International Airport",
-    "lat": "-104.672996521",
-    "lng": "39.861698150635"
+    "lng": "-104.672996521",
+    "lat": "39.861698150635"
   },
   {
     "iata": "DFW",
     "label": "Dallas Fort Worth International Airport",
-    "lat": "-97.038002",
-    "lng": "32.896801"
+    "lng": "-97.038002",
+    "lat": "32.896801"
   },
   {
     "iata": "DLF",
     "label": "DLF Airport",
-    "lat": "-100.778002",
-    "lng": "29.359501"
+    "lng": "-100.778002",
+    "lat": "29.359501"
   },
   {
     "iata": "DLH",
     "label": "Duluth International Airport",
-    "lat": "-92.19360351559999",
-    "lng": "46.8420982361"
+    "lng": "-92.19360351559999",
+    "lat": "46.8420982361"
   },
   {
     "iata": "DOV",
     "label": "Dover Air Force Base",
-    "lat": "-75.46600342",
-    "lng": "39.12950134"
+    "lng": "-75.46600342",
+    "lat": "39.12950134"
   },
   {
     "iata": "DSM",
     "label": "Des Moines International Airport",
-    "lat": "-93.66310119628906",
-    "lng": "41.534000396728516"
+    "lng": "-93.66310119628906",
+    "lat": "41.534000396728516"
   },
   {
     "iata": "DTW",
     "label": "Detroit Metropolitan Wayne County Airport",
-    "lat": "-83.35340118408203",
-    "lng": "42.212398529052734"
+    "lng": "-83.35340118408203",
+    "lat": "42.212398529052734"
   },
   {
     "iata": "DYS",
     "label": "Dyess Air Force Base",
-    "lat": "-99.854598999",
-    "lng": "32.4207992554"
+    "lng": "-99.854598999",
+    "lat": "32.4207992554"
   },
   {
     "iata": "EDW",
     "label": "Edwards Air Force Base",
-    "lat": "-117.884003",
-    "lng": "34.905399"
+    "lng": "-117.884003",
+    "lat": "34.905399"
   },
   {
     "iata": "END",
     "label": "Vance Air Force Base",
-    "lat": "-97.9164962769",
-    "lng": "36.339199066199996"
+    "lng": "-97.9164962769",
+    "lat": "36.339199066199996"
   },
   {
     "iata": "ERI",
     "label": "Erie International Tom Ridge Field",
-    "lat": "-80.1738667488",
-    "lng": "42.0831270134"
+    "lng": "-80.1738667488",
+    "lat": "42.0831270134"
   },
   {
     "iata": "EWR",
     "label": "Newark Liberty International Airport",
-    "lat": "-74.168701171875",
-    "lng": "40.692501068115234"
+    "lng": "-74.168701171875",
+    "lat": "40.692501068115234"
   },
   {
     "iata": "FAI",
     "label": "Fairbanks International Airport",
-    "lat": "-147.8560028",
-    "lng": "64.81510162"
+    "lng": "-147.8560028",
+    "lat": "64.81510162"
   },
   {
     "iata": "FFO",
     "label": "Wright-Patterson Air Force Base",
-    "lat": "-84.0483016968",
-    "lng": "39.8260993958"
+    "lng": "-84.0483016968",
+    "lat": "39.8260993958"
   },
   {
     "iata": "FLL",
     "label": "Fort Lauderdale Hollywood International Airport",
-    "lat": "-80.152702",
-    "lng": "26.072599"
+    "lng": "-80.152702",
+    "lat": "26.072599"
   },
   {
     "iata": "FSM",
     "label": "Fort Smith Regional Airport",
-    "lat": "-94.36740112304688",
-    "lng": "35.33660125732422"
+    "lng": "-94.36740112304688",
+    "lat": "35.33660125732422"
   },
   {
     "iata": "FTW",
     "label": "Fort Worth Meacham International Airport",
-    "lat": "-97.362396",
-    "lng": "32.819801"
+    "lng": "-97.362396",
+    "lat": "32.819801"
   },
   {
     "iata": "FWA",
     "label": "Fort Wayne International Airport",
-    "lat": "-85.19509888",
-    "lng": "40.97850037"
+    "lng": "-85.19509888",
+    "lat": "40.97850037"
   },
   {
     "iata": "GCM",
     "label": "Owen Roberts International Airport",
-    "lat": "-81.3576965332",
-    "lng": "19.292800903299998"
+    "lng": "-81.3576965332",
+    "lat": "19.292800903299998"
   },
   {
     "iata": "GDL",
     "label": "Don Miguel Hidalgo Y Costilla International Airport",
-    "lat": "-103.31099700927734",
-    "lng": "20.521799087524414"
+    "lng": "-103.31099700927734",
+    "lat": "20.521799087524414"
   },
   {
     "iata": "GEG",
     "label": "Spokane International Airport",
-    "lat": "-117.53399658203125",
-    "lng": "47.61989974975586"
+    "lng": "-117.53399658203125",
+    "lat": "47.61989974975586"
   },
   {
     "iata": "GPT",
     "label": "Gulfport Biloxi International Airport",
-    "lat": "-89.07009887695312",
-    "lng": "30.40730094909668"
+    "lng": "-89.07009887695312",
+    "lat": "30.40730094909668"
   },
   {
     "iata": "GRB",
     "label": "Austin Straubel International Airport",
-    "lat": "-88.12960052490234",
-    "lng": "44.48509979248047"
+    "lng": "-88.12960052490234",
+    "lat": "44.48509979248047"
   },
   {
     "iata": "GSB",
     "label": "Seymour Johnson Air Force Base",
-    "lat": "-77.96060181",
-    "lng": "35.33940125"
+    "lng": "-77.96060181",
+    "lat": "35.33940125"
   },
   {
     "iata": "GSO",
     "label": "Piedmont Triad International Airport",
-    "lat": "-79.93730163574219",
-    "lng": "36.097801208496094"
+    "lng": "-79.93730163574219",
+    "lat": "36.097801208496094"
   },
   {
     "iata": "GSP",
     "label": "Greenville Spartanburg International Airport",
-    "lat": "-82.2189025879",
-    "lng": "34.8956985474"
+    "lng": "-82.2189025879",
+    "lat": "34.8956985474"
   },
   {
     "iata": "GUA",
     "label": "La Aurora Airport",
-    "lat": "-90.527496",
-    "lng": "14.5833"
+    "lng": "-90.527496",
+    "lat": "14.5833"
   },
   {
     "iata": "GUS",
     "label": "Grissom Air Reserve Base",
-    "lat": "-86.1520996094",
-    "lng": "40.648101806599996"
+    "lng": "-86.1520996094",
+    "lat": "40.648101806599996"
   },
   {
     "iata": "HAV",
     "label": "JosÃ© MartÃ­ International Airport",
-    "lat": "-82.40910339355469",
-    "lng": "22.989200592041016"
+    "lng": "-82.40910339355469",
+    "lat": "22.989200592041016"
   },
   {
     "iata": "HIB",
     "label": "Range Regional Airport",
-    "lat": "-92.83899689",
-    "lng": "47.38660049"
+    "lng": "-92.83899689",
+    "lat": "47.38660049"
   },
   {
     "iata": "HMN",
     "label": "Holloman Air Force Base",
-    "lat": "-106.107002258",
-    "lng": "32.8525009155"
+    "lng": "-106.107002258",
+    "lat": "32.8525009155"
   },
   {
     "iata": "HMO",
     "label": "General Ignacio P. Garcia International Airport",
-    "lat": "-111.047996521",
-    "lng": "29.095899581900003"
+    "lng": "-111.047996521",
+    "lat": "29.095899581900003"
   },
   {
     "iata": "HNL",
     "label": "Daniel K Inouye International Airport",
-    "lat": "-157.924228",
-    "lng": "21.32062"
+    "lng": "-157.924228",
+    "lat": "21.32062"
   },
   {
     "iata": "HOU",
     "label": "William P Hobby Airport",
-    "lat": "-95.27890015",
-    "lng": "29.64539909"
+    "lng": "-95.27890015",
+    "lat": "29.64539909"
   },
   {
     "iata": "HSV",
     "label": "Huntsville International Carl T Jones Field",
-    "lat": "-86.775100708008",
-    "lng": "34.637199401855"
+    "lng": "-86.775100708008",
+    "lat": "34.637199401855"
   },
   {
     "iata": "HTS",
     "label": "Tri-State/Milton J. Ferguson Field",
-    "lat": "-82.55799866",
-    "lng": "38.36669922"
+    "lng": "-82.55799866",
+    "lat": "38.36669922"
   },
   {
     "iata": "IAD",
     "label": "Washington Dulles International Airport",
-    "lat": "-77.45580292",
-    "lng": "38.94449997"
+    "lng": "-77.45580292",
+    "lat": "38.94449997"
   },
   {
     "iata": "IAH",
     "label": "George Bush Intercontinental Houston Airport",
-    "lat": "-95.34140014648438",
-    "lng": "29.984399795532227"
+    "lng": "-95.34140014648438",
+    "lat": "29.984399795532227"
   },
   {
     "iata": "ICT",
     "label": "Wichita Eisenhower National Airport",
-    "lat": "-97.433098",
-    "lng": "37.649899"
+    "lng": "-97.433098",
+    "lat": "37.649899"
   },
   {
     "iata": "IND",
     "label": "Indianapolis International Airport",
-    "lat": "-86.294403",
-    "lng": "39.7173"
+    "lng": "-86.294403",
+    "lat": "39.7173"
   },
   {
     "iata": "JAN",
     "label": "Jackson-Medgar Wiley Evers International Airport",
-    "lat": "-90.0758972168",
-    "lng": "32.3111991882"
+    "lng": "-90.0758972168",
+    "lat": "32.3111991882"
   },
   {
     "iata": "JAX",
     "label": "Jacksonville International Airport",
-    "lat": "-81.68789672851562",
-    "lng": "30.49410057067871"
+    "lng": "-81.68789672851562",
+    "lat": "30.49410057067871"
   },
   {
     "iata": "JFK",
     "label": "John F Kennedy International Airport",
-    "lat": "-73.7789",
-    "lng": "40.639801"
+    "lng": "-73.7789",
+    "lat": "40.639801"
   },
   {
     "iata": "JLN",
     "label": "Joplin Regional Airport",
-    "lat": "-94.49829864501953",
-    "lng": "37.151798248291016"
+    "lng": "-94.49829864501953",
+    "lat": "37.151798248291016"
   },
   {
     "iata": "KIN",
     "label": "Norman Manley International Airport",
-    "lat": "-76.7874984741211",
-    "lng": "17.935699462890625"
+    "lng": "-76.7874984741211",
+    "lat": "17.935699462890625"
   },
   {
     "iata": "LAS",
     "label": "McCarran International Airport",
-    "lat": "-115.1520004",
-    "lng": "36.08010101"
+    "lng": "-115.1520004",
+    "lat": "36.08010101"
   },
   {
     "iata": "LAX",
     "label": "Los Angeles International Airport",
-    "lat": "-118.407997",
-    "lng": "33.942501"
+    "lng": "-118.407997",
+    "lat": "33.942501"
   },
   {
     "iata": "LBB",
     "label": "Lubbock Preston Smith International Airport",
-    "lat": "-101.822998",
-    "lng": "33.663601"
+    "lng": "-101.822998",
+    "lat": "33.663601"
   },
   {
     "iata": "LCK",
     "label": "Rickenbacker International Airport",
-    "lat": "-82.927803",
-    "lng": "39.813801"
+    "lng": "-82.927803",
+    "lat": "39.813801"
   },
   {
     "iata": "LEX",
     "label": "Blue Grass Airport",
-    "lat": "-84.60590362548828",
-    "lng": "38.0364990234375"
+    "lng": "-84.60590362548828",
+    "lat": "38.0364990234375"
   },
   {
     "iata": "LFI",
     "label": "Langley Air Force Base",
-    "lat": "-76.360496521",
-    "lng": "37.082901001"
+    "lng": "-76.360496521",
+    "lat": "37.082901001"
   },
   {
     "iata": "LFT",
     "label": "Lafayette Regional Airport",
-    "lat": "-91.98760223",
-    "lng": "30.20529938"
+    "lng": "-91.98760223",
+    "lat": "30.20529938"
   },
   {
     "iata": "LGA",
     "label": "La Guardia Airport",
-    "lat": "-73.872597",
-    "lng": "40.777199"
+    "lng": "-73.872597",
+    "lat": "40.777199"
   },
   {
     "iata": "LIR",
     "label": "Daniel Oduber Quiros International Airport",
-    "lat": "-85.544403",
-    "lng": "10.5933"
+    "lng": "-85.544403",
+    "lat": "10.5933"
   },
   {
     "iata": "LIT",
     "label": "Bill & Hillary Clinton National Airport/Adams Field",
-    "lat": "-92.2242965698",
-    "lng": "34.729400634799994"
+    "lng": "-92.2242965698",
+    "lat": "34.729400634799994"
   },
   {
     "iata": "LTS",
     "label": "Altus Air Force Base",
-    "lat": "-99.2667007446",
-    "lng": "34.667098999"
+    "lng": "-99.2667007446",
+    "lat": "34.667098999"
   },
   {
     "iata": "LUF",
     "label": "Luke Air Force Base",
-    "lat": "-112.383003235",
-    "lng": "33.534999847399995"
+    "lng": "-112.383003235",
+    "lat": "33.534999847399995"
   },
   {
     "iata": "MBS",
     "label": "MBS International Airport",
-    "lat": "-84.07959747314453",
-    "lng": "43.532901763916016"
+    "lng": "-84.07959747314453",
+    "lat": "43.532901763916016"
   },
   {
     "iata": "MCF",
     "label": "Mac Dill Air Force Base",
-    "lat": "-82.52120209",
-    "lng": "27.84930038"
+    "lng": "-82.52120209",
+    "lat": "27.84930038"
   },
   {
     "iata": "MCI",
     "label": "Kansas City International Airport",
-    "lat": "-94.713898",
-    "lng": "39.2976"
+    "lng": "-94.713898",
+    "lat": "39.2976"
   },
   {
     "iata": "MCO",
     "label": "Orlando International Airport",
-    "lat": "-81.30899810791016",
-    "lng": "28.429399490356445"
+    "lng": "-81.30899810791016",
+    "lat": "28.429399490356445"
   },
   {
     "iata": "MDW",
     "label": "Chicago Midway International Airport",
-    "lat": "-87.752403",
-    "lng": "41.785999"
+    "lng": "-87.752403",
+    "lat": "41.785999"
   },
   {
     "iata": "MEM",
     "label": "Memphis International Airport",
-    "lat": "-89.97669982910156",
-    "lng": "35.04240036010742"
+    "lng": "-89.97669982910156",
+    "lat": "35.04240036010742"
   },
   {
     "iata": "MEX",
     "label": "Licenciado Benito Juarez International Airport",
-    "lat": "-99.072098",
-    "lng": "19.4363"
+    "lng": "-99.072098",
+    "lat": "19.4363"
   },
   {
     "iata": "MGE",
     "label": "Dobbins Air Reserve Base",
-    "lat": "-84.51629639",
-    "lng": "33.91540146"
+    "lng": "-84.51629639",
+    "lat": "33.91540146"
   },
   {
     "iata": "MGM",
     "label": "Montgomery Regional (Dannelly Field) Airport",
-    "lat": "-86.39399719",
-    "lng": "32.30059814"
+    "lng": "-86.39399719",
+    "lat": "32.30059814"
   },
   {
     "iata": "MHT",
     "label": "Manchester-Boston Regional Airport",
-    "lat": "-71.435699",
-    "lng": "42.932598"
+    "lng": "-71.435699",
+    "lat": "42.932598"
   },
   {
     "iata": "MIA",
     "label": "Miami International Airport",
-    "lat": "-80.29060363769531",
-    "lng": "25.79319953918457"
+    "lng": "-80.29060363769531",
+    "lat": "25.79319953918457"
   },
   {
     "iata": "MKE",
     "label": "General Mitchell International Airport",
-    "lat": "-87.89659881591797",
-    "lng": "42.947200775146484"
+    "lng": "-87.89659881591797",
+    "lat": "42.947200775146484"
   },
   {
     "iata": "MLI",
     "label": "Quad City International Airport",
-    "lat": "-90.50749969482422",
-    "lng": "41.44850158691406"
+    "lng": "-90.50749969482422",
+    "lat": "41.44850158691406"
   },
   {
     "iata": "MLU",
     "label": "Monroe Regional Airport",
-    "lat": "-92.0376968383789",
-    "lng": "32.51089859008789"
+    "lng": "-92.0376968383789",
+    "lat": "32.51089859008789"
   },
   {
     "iata": "MOB",
     "label": "Mobile Regional Airport",
-    "lat": "-88.242797851562",
-    "lng": "30.691200256348"
+    "lng": "-88.242797851562",
+    "lat": "30.691200256348"
   },
   {
     "iata": "MSN",
     "label": "Dane County Regional Truax Field",
-    "lat": "-89.3375015258789",
-    "lng": "43.13990020751953"
+    "lng": "-89.3375015258789",
+    "lat": "43.13990020751953"
   },
   {
     "iata": "MSP",
     "label": "Minneapolis-St Paul International/Wold-Chamberlain Airport",
-    "lat": "-93.221802",
-    "lng": "44.882"
+    "lng": "-93.221802",
+    "lat": "44.882"
   },
   {
     "iata": "MSY",
     "label": "Louis Armstrong New Orleans International Airport",
-    "lat": "-90.25800323486328",
-    "lng": "29.99340057373047"
+    "lng": "-90.25800323486328",
+    "lat": "29.99340057373047"
   },
   {
     "iata": "MTY",
     "label": "General Mariano Escobedo International Airport",
-    "lat": "-100.107002258",
-    "lng": "25.7784996033"
+    "lng": "-100.107002258",
+    "lat": "25.7784996033"
   },
   {
     "iata": "MUO",
     "label": "Mountain Home Air Force Base",
-    "lat": "-115.872002",
-    "lng": "43.043598"
+    "lng": "-115.872002",
+    "lat": "43.043598"
   },
   {
     "iata": "NAS",
     "label": "Lynden Pindling International Airport",
-    "lat": "-77.466202",
-    "lng": "25.039"
+    "lng": "-77.466202",
+    "lat": "25.039"
   },
   {
     "iata": "OAK",
     "label": "Metropolitan Oakland International Airport",
-    "lat": "-122.221001",
-    "lng": "37.721298"
+    "lng": "-122.221001",
+    "lat": "37.721298"
   },
   {
     "iata": "OKC",
     "label": "Will Rogers World Airport",
-    "lat": "-97.60070037841797",
-    "lng": "35.39310073852539"
+    "lng": "-97.60070037841797",
+    "lat": "35.39310073852539"
   },
   {
     "iata": "OMA",
     "label": "Eppley Airfield",
-    "lat": "-95.894096",
-    "lng": "41.3032"
+    "lng": "-95.894096",
+    "lat": "41.3032"
   },
   {
     "iata": "ONT",
     "label": "Ontario International Airport",
-    "lat": "-117.60099792480469",
-    "lng": "34.055999755859375"
+    "lng": "-117.60099792480469",
+    "lat": "34.055999755859375"
   },
   {
     "iata": "ORD",
     "label": "Chicago O'Hare International Airport",
-    "lat": "-87.9048",
-    "lng": "41.9786"
+    "lng": "-87.9048",
+    "lat": "41.9786"
   },
   {
     "iata": "ORF",
     "label": "Norfolk International Airport",
-    "lat": "-76.20120239257812",
-    "lng": "36.89459991455078"
+    "lng": "-76.20120239257812",
+    "lat": "36.89459991455078"
   },
   {
     "iata": "PAM",
     "label": "Tyndall Air Force Base",
-    "lat": "-85.57540130619999",
-    "lng": "30.0695991516"
+    "lng": "-85.57540130619999",
+    "lat": "30.0695991516"
   },
   {
     "iata": "PBI",
     "label": "Palm Beach International Airport",
-    "lat": "-80.09559631347656",
-    "lng": "26.68320083618164"
+    "lng": "-80.09559631347656",
+    "lat": "26.68320083618164"
   },
   {
     "iata": "PDX",
     "label": "Portland International Airport",
-    "lat": "-122.5979996",
-    "lng": "45.58869934"
+    "lng": "-122.5979996",
+    "lat": "45.58869934"
   },
   {
     "iata": "PHF",
     "label": "Newport News Williamsburg International Airport",
-    "lat": "-76.49299622",
-    "lng": "37.13190079"
+    "lng": "-76.49299622",
+    "lat": "37.13190079"
   },
   {
     "iata": "PHL",
     "label": "Philadelphia International Airport",
-    "lat": "-75.24109649658203",
-    "lng": "39.87189865112305"
+    "lng": "-75.24109649658203",
+    "lat": "39.87189865112305"
   },
   {
     "iata": "PHX",
     "label": "Phoenix Sky Harbor International Airport",
-    "lat": "-112.01200103759766",
-    "lng": "33.43429946899414"
+    "lng": "-112.01200103759766",
+    "lat": "33.43429946899414"
   },
   {
     "iata": "PIA",
     "label": "General Wayne A. Downing Peoria International Airport",
-    "lat": "-89.6932983398",
-    "lng": "40.664199829100006"
+    "lng": "-89.6932983398",
+    "lat": "40.664199829100006"
   },
   {
     "iata": "PIT",
     "label": "Pittsburgh International Airport",
-    "lat": "-80.23290253",
-    "lng": "40.49150085"
+    "lng": "-80.23290253",
+    "lat": "40.49150085"
   },
   {
     "iata": "PTP",
     "label": "Pointe-Ã -Pitre Le Raizet",
-    "lat": "-61.531799",
-    "lng": "16.265301"
+    "lng": "-61.531799",
+    "lat": "16.265301"
   },
   {
     "iata": "PTY",
     "label": "Tocumen International Airport",
-    "lat": "-79.3834991455",
-    "lng": "9.0713596344"
+    "lng": "-79.3834991455",
+    "lat": "9.0713596344"
   },
   {
     "iata": "PUJ",
     "label": "Punta Cana International Airport",
-    "lat": "-68.36340332030001",
-    "lng": "18.567399978599997"
+    "lng": "-68.36340332030001",
+    "lat": "18.567399978599997"
   },
   {
     "iata": "PVD",
     "label": "Theodore Francis Green State Airport",
-    "lat": "-71.420403",
-    "lng": "41.732601"
+    "lng": "-71.420403",
+    "lat": "41.732601"
   },
   {
     "iata": "PVR",
     "label": "Licenciado Gustavo DÃ­az Ordaz International Airport",
-    "lat": "-105.25399780273438",
-    "lng": "20.680099487304688"
+    "lng": "-105.25399780273438",
+    "lat": "20.680099487304688"
   },
   {
     "iata": "PWM",
     "label": "Portland International Jetport",
-    "lat": "-70.309303",
-    "lng": "43.646198"
+    "lng": "-70.309303",
+    "lat": "43.646198"
   },
   {
     "iata": "RDU",
     "label": "Raleigh Durham International Airport",
-    "lat": "-78.7874984741211",
-    "lng": "35.877601623535156"
+    "lng": "-78.7874984741211",
+    "lat": "35.877601623535156"
   },
   {
     "iata": "RFD",
     "label": "Chicago Rockford International Airport",
-    "lat": "-89.09719848632812",
-    "lng": "42.19540023803711"
+    "lng": "-89.09719848632812",
+    "lat": "42.19540023803711"
   },
   {
     "iata": "RIC",
     "label": "Richmond International Airport",
-    "lat": "-77.3197021484375",
-    "lng": "37.50519943237305"
+    "lng": "-77.3197021484375",
+    "lat": "37.50519943237305"
   },
   {
     "iata": "RND",
     "label": "Randolph Air Force Base",
-    "lat": "-98.27890015",
-    "lng": "29.52969933"
+    "lng": "-98.27890015",
+    "lat": "29.52969933"
   },
   {
     "iata": "RNO",
     "label": "Reno Tahoe International Airport",
-    "lat": "-119.76799774169922",
-    "lng": "39.49909973144531"
+    "lng": "-119.76799774169922",
+    "lat": "39.49909973144531"
   },
   {
     "iata": "ROA",
     "label": "RoanokeâBlacksburg Regional Airport",
-    "lat": "-79.975403",
-    "lng": "37.3255"
+    "lng": "-79.975403",
+    "lat": "37.3255"
   },
   {
     "iata": "ROC",
     "label": "Greater Rochester International Airport",
-    "lat": "-77.67240142822266",
-    "lng": "43.118900299072266"
+    "lng": "-77.67240142822266",
+    "lat": "43.118900299072266"
   },
   {
     "iata": "RST",
     "label": "Rochester International Airport",
-    "lat": "-92.5",
-    "lng": "43.90829849243164"
+    "lng": "-92.5",
+    "lat": "43.90829849243164"
   },
   {
     "iata": "RSW",
     "label": "Southwest Florida International Airport",
-    "lat": "-81.75520324707031",
-    "lng": "26.53619956970215"
+    "lng": "-81.75520324707031",
+    "lat": "26.53619956970215"
   },
   {
     "iata": "SAL",
     "label": "MonseÃ±or Ãscar Arnulfo Romero International Airport",
-    "lat": "-89.055702",
-    "lng": "13.4409"
+    "lng": "-89.055702",
+    "lat": "13.4409"
   },
   {
     "iata": "SAN",
     "label": "San Diego International Airport",
-    "lat": "-117.190002441",
-    "lng": "32.7336006165"
+    "lng": "-117.190002441",
+    "lat": "32.7336006165"
   },
   {
     "iata": "SAT",
     "label": "San Antonio International Airport",
-    "lat": "-98.469803",
-    "lng": "29.533701"
+    "lng": "-98.469803",
+    "lat": "29.533701"
   },
   {
     "iata": "SAV",
     "label": "Savannah Hilton Head International Airport",
-    "lat": "-81.20210266",
-    "lng": "32.12760162"
+    "lng": "-81.20210266",
+    "lat": "32.12760162"
   },
   {
     "iata": "SBN",
     "label": "South Bend Regional Airport",
-    "lat": "-86.31729888916016",
-    "lng": "41.70869827270508"
+    "lng": "-86.31729888916016",
+    "lat": "41.70869827270508"
   },
   {
     "iata": "SDF",
     "label": "Louisville Muhammad Ali International Airport",
-    "lat": "-85.736",
-    "lng": "38.1744"
+    "lng": "-85.736",
+    "lat": "38.1744"
   },
   {
     "iata": "SDQ",
     "label": "Las AmÃ©ricas International Airport",
-    "lat": "-69.668899536133",
-    "lng": "18.42970085144"
+    "lng": "-69.668899536133",
+    "lat": "18.42970085144"
   },
   {
     "iata": "SEA",
     "label": "Seattle Tacoma International Airport",
-    "lat": "-122.308998",
-    "lng": "47.449001"
+    "lng": "-122.308998",
+    "lat": "47.449001"
   },
   {
     "iata": "SFB",
     "label": "Orlando Sanford International Airport",
-    "lat": "-81.23750305175781",
-    "lng": "28.777599334716797"
+    "lng": "-81.23750305175781",
+    "lat": "28.777599334716797"
   },
   {
     "iata": "SFO",
     "label": "San Francisco International Airport",
-    "lat": "-122.375",
-    "lng": "37.61899948120117"
+    "lng": "-122.375",
+    "lat": "37.61899948120117"
   },
   {
     "iata": "SGF",
     "label": "Springfield Branson National Airport",
-    "lat": "-93.38860321",
-    "lng": "37.24570084"
+    "lng": "-93.38860321",
+    "lat": "37.24570084"
   },
   {
     "iata": "SJC",
     "label": "Norman Y. Mineta San Jose International Airport",
-    "lat": "-121.929001",
-    "lng": "37.362598"
+    "lng": "-121.929001",
+    "lat": "37.362598"
   },
   {
     "iata": "SJD",
     "label": "Los Cabos International Airport",
-    "lat": "-109.72100067138672",
-    "lng": "23.15180015563965"
+    "lng": "-109.72100067138672",
+    "lat": "23.15180015563965"
   },
   {
     "iata": "SJU",
     "label": "Luis Munoz Marin International Airport",
-    "lat": "-66.0018005371",
-    "lng": "18.4393997192"
+    "lng": "-66.0018005371",
+    "lat": "18.4393997192"
   },
   {
     "iata": "SKA",
     "label": "Fairchild Air Force Base",
-    "lat": "-117.65599823",
-    "lng": "47.6151008606"
+    "lng": "-117.65599823",
+    "lat": "47.6151008606"
   },
   {
     "iata": "SLC",
     "label": "Salt Lake City International Airport",
-    "lat": "-111.97799682617188",
-    "lng": "40.78839874267578"
+    "lng": "-111.97799682617188",
+    "lat": "40.78839874267578"
   },
   {
     "iata": "SMF",
     "label": "Sacramento International Airport",
-    "lat": "-121.59100341796875",
-    "lng": "38.69540023803711"
+    "lng": "-121.59100341796875",
+    "lat": "38.69540023803711"
   },
   {
     "iata": "SNA",
     "label": "John Wayne Airport-Orange County Airport",
-    "lat": "-117.8679962",
-    "lng": "33.67570114"
+    "lng": "-117.8679962",
+    "lat": "33.67570114"
   },
   {
     "iata": "SPI",
     "label": "Abraham Lincoln Capital Airport",
-    "lat": "-89.67790222",
-    "lng": "39.84410095"
+    "lng": "-89.67790222",
+    "lat": "39.84410095"
   },
   {
     "iata": "SPS",
     "label": "Sheppard Air Force Base-Wichita Falls Municipal Airport",
-    "lat": "-98.491898",
-    "lng": "33.9888"
+    "lng": "-98.491898",
+    "lat": "33.9888"
   },
   {
     "iata": "SRQ",
     "label": "Sarasota Bradenton International Airport",
-    "lat": "-82.55439758300781",
-    "lng": "27.39539909362793"
+    "lng": "-82.55439758300781",
+    "lat": "27.39539909362793"
   },
   {
     "iata": "SSC",
     "label": "Shaw Air Force Base",
-    "lat": "-80.47059631",
-    "lng": "33.97269821"
+    "lng": "-80.47059631",
+    "lat": "33.97269821"
   },
   {
     "iata": "STL",
     "label": "St Louis Lambert International Airport",
-    "lat": "-90.370003",
-    "lng": "38.748697"
+    "lng": "-90.370003",
+    "lat": "38.748697"
   },
   {
     "iata": "SUS",
     "label": "Spirit of St Louis Airport",
-    "lat": "-90.652000427246",
-    "lng": "38.662101745605"
+    "lng": "-90.652000427246",
+    "lat": "38.662101745605"
   },
   {
     "iata": "SUU",
     "label": "Travis Air Force Base",
-    "lat": "-121.92700195312",
-    "lng": "38.262699127197"
+    "lng": "-121.92700195312",
+    "lat": "38.262699127197"
   },
   {
     "iata": "SUX",
     "label": "Sioux Gateway Airport/Brigadier General Bud Day Field",
-    "lat": "-96.384399",
-    "lng": "42.402599"
+    "lng": "-96.384399",
+    "lat": "42.402599"
   },
   {
     "iata": "SXM",
     "label": "Princess Juliana International Airport",
-    "lat": "-63.1088981628",
-    "lng": "18.041000366200002"
+    "lng": "-63.1088981628",
+    "lat": "18.041000366200002"
   },
   {
     "iata": "SYR",
     "label": "Syracuse Hancock International Airport",
-    "lat": "-76.1063003540039",
-    "lng": "43.11119842529297"
+    "lng": "-76.1063003540039",
+    "lat": "43.11119842529297"
   },
   {
     "iata": "SZL",
     "label": "Whiteman Air Force Base",
-    "lat": "-93.547897338867",
-    "lng": "38.73030090332"
+    "lng": "-93.547897338867",
+    "lat": "38.73030090332"
   },
   {
     "iata": "TCM",
     "label": "McChord Air Force Base",
-    "lat": "-122.475997925",
-    "lng": "47.1376991272"
+    "lng": "-122.475997925",
+    "lat": "47.1376991272"
   },
   {
     "iata": "TIJ",
     "label": "General Abelardo L. RodrÃ­guez International Airport",
-    "lat": "-116.97000122070312",
-    "lng": "32.541099548339844"
+    "lng": "-116.97000122070312",
+    "lat": "32.541099548339844"
   },
   {
     "iata": "TIK",
     "label": "Tinker Air Force Base",
-    "lat": "-97.386596679688",
-    "lng": "35.414699554443"
+    "lng": "-97.386596679688",
+    "lat": "35.414699554443"
   },
   {
     "iata": "TLH",
     "label": "Tallahassee Regional Airport",
-    "lat": "-84.35030364990234",
-    "lng": "30.396499633789062"
+    "lng": "-84.35030364990234",
+    "lat": "30.396499633789062"
   },
   {
     "iata": "TOL",
     "label": "Toledo Express Airport",
-    "lat": "-83.80780029",
-    "lng": "41.58679962"
+    "lng": "-83.80780029",
+    "lat": "41.58679962"
   },
   {
     "iata": "TPA",
     "label": "Tampa International Airport",
-    "lat": "-82.533203125",
-    "lng": "27.975500106811523"
+    "lng": "-82.533203125",
+    "lat": "27.975500106811523"
   },
   {
     "iata": "TRI",
     "label": "Tri-Cities Regional TN/VA Airport",
-    "lat": "-82.407401",
-    "lng": "36.475201"
+    "lng": "-82.407401",
+    "lat": "36.475201"
   },
   {
     "iata": "TUL",
     "label": "Tulsa International Airport",
-    "lat": "-95.88809967041016",
-    "lng": "36.19839859008789"
+    "lng": "-95.88809967041016",
+    "lat": "36.19839859008789"
   },
   {
     "iata": "TUS",
     "label": "Tucson International Airport / Morris Air National Guard Base",
-    "lat": "-110.938053",
-    "lng": "32.115004"
+    "lng": "-110.938053",
+    "lat": "32.115004"
   },
   {
     "iata": "TYS",
     "label": "McGhee Tyson Airport",
-    "lat": "-83.9940033",
-    "lng": "35.81100082"
+    "lng": "-83.9940033",
+    "lat": "35.81100082"
   },
   {
     "iata": "VBG",
     "label": "Vandenberg Air Force Base",
-    "lat": "-120.583999634",
-    "lng": "34.7373008728"
+    "lng": "-120.583999634",
+    "lat": "34.7373008728"
   },
   {
     "iata": "VPS",
     "label": "Destin-Ft Walton Beach Airport",
-    "lat": "-86.525398",
-    "lng": "30.4832"
+    "lng": "-86.525398",
+    "lat": "30.4832"
   },
   {
     "iata": "VRA",
     "label": "Juan Gualberto Gomez International Airport",
-    "lat": "-81.435302734375",
-    "lng": "23.034400939941406"
+    "lng": "-81.435302734375",
+    "lat": "23.034400939941406"
   },
   {
     "iata": "WRB",
     "label": "Robins Air Force Base",
-    "lat": "-83.5919036865",
-    "lng": "32.6400985718"
+    "lng": "-83.5919036865",
+    "lat": "32.6400985718"
   },
   {
     "iata": "YEG",
     "label": "Edmonton International Airport",
-    "lat": "-113.580001831",
-    "lng": "53.309700012200004"
+    "lng": "-113.580001831",
+    "lat": "53.309700012200004"
   },
   {
     "iata": "YHZ",
     "label": "Halifax / Stanfield International Airport",
-    "lat": "-63.5085983276",
-    "lng": "44.8807983398"
+    "lng": "-63.5085983276",
+    "lat": "44.8807983398"
   },
   {
     "iata": "YOW",
     "label": "Ottawa Macdonald-Cartier International Airport",
-    "lat": "-75.66919708251953",
-    "lng": "45.3224983215332"
+    "lng": "-75.66919708251953",
+    "lat": "45.3224983215332"
   },
   {
     "iata": "YUL",
     "label": "Montreal / Pierre Elliott Trudeau International Airport",
-    "lat": "-73.7407989502",
-    "lng": "45.4706001282"
+    "lng": "-73.7407989502",
+    "lat": "45.4706001282"
   },
   {
     "iata": "YVR",
     "label": "Vancouver International Airport",
-    "lat": "-123.183998108",
-    "lng": "49.193901062"
+    "lng": "-123.183998108",
+    "lat": "49.193901062"
   },
   {
     "iata": "YWG",
     "label": "Winnipeg / James Armstrong Richardson International Airport",
-    "lat": "-97.2398986816",
-    "lng": "49.909999847399995"
+    "lng": "-97.2398986816",
+    "lat": "49.909999847399995"
   },
   {
     "iata": "YYC",
     "label": "Calgary International Airport",
-    "lat": "-114.019996643",
-    "lng": "51.113899231"
+    "lng": "-114.019996643",
+    "lat": "51.113899231"
   },
   {
     "iata": "YYJ",
     "label": "Victoria International Airport",
-    "lat": "-123.426002502",
-    "lng": "48.646900177"
+    "lng": "-123.426002502",
+    "lat": "48.646900177"
   },
   {
     "iata": "YYT",
     "label": "St. John's International Airport",
-    "lat": "-52.7518997192",
-    "lng": "47.618598938"
+    "lng": "-52.7518997192",
+    "lat": "47.618598938"
   },
   {
     "iata": "YYZ",
     "label": "Lester B. Pearson International Airport",
-    "lat": "-79.63059997559999",
-    "lng": "43.6772003174"
+    "lng": "-79.63059997559999",
+    "lat": "43.6772003174"
   }
 ]

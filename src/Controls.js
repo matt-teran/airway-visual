@@ -41,7 +41,7 @@ const useStyles = makeStyles({
   },
 });
 
-const Controls = () => {
+const Controls = (props) => {
   const classes = useStyles();
   const [depCity, setDepCity] = useState("");
   const [arrCity, setArrCity] = useState("");
@@ -110,9 +110,14 @@ const Controls = () => {
           />
           <Button
             variant="contained"
-            onClick={() => {
-              console.log(depCity || arrCity);
-            }}
+            onClick={() =>
+              props.search(
+                airports.find((airport) => airport.label === depCity),
+                date,
+                checked,
+                Boolean(depCity)
+              )
+            }
           >
             Search
           </Button>
