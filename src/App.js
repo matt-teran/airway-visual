@@ -25,8 +25,10 @@ const darkTheme = createTheme({
 function App() {
   const [arcInitialGap, setArcInitialGap] = useState(1);
   const [arcsData, setArcsData] = useState([]);
+  const [loading, setLoading] = useState(false);
 
   const searchHandler = (airport, date, activeFlights, isDeparture) => {
+    setLoading(true);
     let flights;
     const iata = isDeparture ? "dep_iata" : "arr_iata";
     axios
@@ -71,6 +73,7 @@ function App() {
         return flights;
       })
       .then((res) => {
+        setLoading(false);
         setArcsData(flights);
         setArcInitialGap(1)
       })
@@ -89,7 +92,7 @@ function App() {
     <Fragment>
       <ThemeProvider theme={darkTheme}>
         <LocalizationProvider dateAdapter={AdapterDateFns}>
-          <Controls search={searchHandler} />
+          <Controls search={searchHandler} loading={loading}/>
         </LocalizationProvider>
       </ThemeProvider>
       <Globe
@@ -108,3 +111,5 @@ function App() {
 export default App;
 
 //button should reset arcInitialGap animation
+//add loading thing
+//show results from the rest of the world

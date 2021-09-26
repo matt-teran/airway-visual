@@ -6,6 +6,7 @@ import Card from "@mui/material/Card";
 import CardHeader from "@mui/material/CardHeader";
 import CardContent from "@mui/material/CardContent";
 import CardActions from "@mui/material/CardActions";
+import CircularProgress from "@mui/material/CircularProgress";
 
 //inputs
 import Autocomplete from "@mui/material/Autocomplete";
@@ -108,26 +109,42 @@ const Controls = (props) => {
             }
             label="Active Flights"
           />
-          <Button
-            variant="contained"
-            disabled={!Boolean(depCity) && !Boolean(arrCity)}
-            onClick={() =>
-              props.search(
-                airports.find((airport) => {
-                  if (Boolean(depCity)) {
-                    return airport.label === depCity;
-                  } else {
-                    return airport.label === arrCity;
-                  }
-                }),
-                date,
-                checked,
-                Boolean(depCity)
-              )
-            }
-          >
-            Search
-          </Button>
+          <Box sx={{ m: 1, position: 'relative' }}>
+            <Button
+              variant="contained"
+              disabled={
+                (!Boolean(depCity) && !Boolean(arrCity)) || props.loading
+              }
+              onClick={() =>
+                props.search(
+                  airports.find((airport) => {
+                    if (Boolean(depCity)) {
+                      return airport.label === depCity;
+                    } else {
+                      return airport.label === arrCity;
+                    }
+                  }),
+                  date,
+                  checked,
+                  Boolean(depCity)
+                )
+              }
+            >
+              Search
+            </Button>
+            {props.loading && (
+              <CircularProgress
+                size={24}
+                sx={{
+                  position: "absolute",
+                  top: "50%",
+                  left: "50%",
+                  marginTop: "-12px",
+                  marginLeft: "-12px",
+                }}
+              />
+            )}
+          </Box>
         </CardActions>
       </CardContent>
     </Card>
