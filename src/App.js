@@ -110,6 +110,4 @@ function App() {
 
 export default App;
 
-//button should reset arcInitialGap animation
-//add loading thing
 //show results from the rest of the world

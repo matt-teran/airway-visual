@@ -68,22 +68,24 @@ const Controls = (props) => {
             <Autocomplete
               className={classes.citySelector}
               options={airports}
+              getOptionLabel={airport => airport.label + ' (' + airport.iata + ')'}
               renderInput={(params) => (
                 <TextField {...params} label="Departure City" />
               )}
               onInputChange={(ev, value) => {
-                setDepCity(value);
+                setDepCity(value.split(' (')[0]);
               }}
               disabled={arrCity !== ""}
             />
             <Autocomplete
               className={classes.citySelector}
               options={airports}
+              getOptionLabel={airport => airport.label + ' (' + airport.iata + ')'}
               renderInput={(params) => (
                 <TextField {...params} label="Arrival City" />
               )}
               onInputChange={(ev, value) => {
-                setArrCity(value);
+                setArrCity(value.split(' (')[0]);
               }}
               disabled={depCity !== ""}
             />
