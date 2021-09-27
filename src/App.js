@@ -3,7 +3,10 @@ import { useState, useEffect, Fragment } from "react";
 //mui
 import LocalizationProvider from "@mui/lab/LocalizationProvider";
 import AdapterDateFns from "@mui/lab/AdapterDateFns";
+import Snackbar from "@mui/material/Snackbar";
 
+import IconButton from '@mui/material/IconButton';
+import CloseIcon from '@mui/icons-material/Close'
 import ThemeProvider from "@mui/material/styles/ThemeProvider";
 import createTheme from "@mui/material/styles/createTheme";
 //react-globe.gl
@@ -26,6 +29,7 @@ function App() {
   const [arcInitialGap, setArcInitialGap] = useState(1);
   const [arcsData, setArcsData] = useState([]);
   const [loading, setLoading] = useState(false);
+  const [noFlights, setNoFlights] = useState(false);
 
   const searchHandler = (airport, date, activeFlights, isDeparture) => {
     setLoading(true);
@@ -42,8 +46,10 @@ function App() {
       .then((res) => {
         flights = res.data.data.reduce((result, flight) => {
           if (
-            airports.findIndex(
-              (airport) => isDeparture ? airport.iata === flight.arrival.iata : airport.iata === flight.departure.iata
+            airports.findIndex((airport) =>
+              isDeparture
+                ? airport.iata === flight.arrival.iata
+                : airport.iata === flight.departure.iata
             ) !== -1
           ) {
             result.push({
@@ -75,7 +81,12 @@ function App() {
       .then((res) => {
         setLoading(false);
         setArcsData(flights);
-        setArcInitialGap(1)
+        setArcInitialGap(1);
+      })
+      .then((res) => {
+        if (arcsData.length === 0) {
+          setNoFlights(true);
+        }
       })
       .catch((err) => {
         console.log(err);
@@ -84,7 +95,7 @@ function App() {
 
   useEffect(() => {
     if (arcInitialGap >= 0 && arcsData.length > 0) {
-      setTimeout(() => setArcInitialGap((prev) => prev - 0.005), 25);
+      setTimeout(() => setArcInitialGap((prev) => prev - 0.005), 10);
     }
   }, [arcInitialGap, arcsData]);
 
@@ -92,17 +103,32 @@ function App() {
     <Fragment>
       <ThemeProvider theme={darkTheme}>
         <LocalizationProvider dateAdapter={AdapterDateFns}>
-          <Controls search={searchHandler} loading={loading}/>
+          <Controls search={searchHandler} loading={loading} />
         </LocalizationProvider>
       </ThemeProvider>
       <Globe
         arcsData={arcsData}
         arcColor={"color"}
-        // arcStroke={"stroke"}
+        arcStroke={"stroke"}
         arcLabel={"label"}
         arcDashInitialGap={() => arcInitialGap}
         arcsTransitionDuration={0}
         globeImageUrl={earth}
+      />
+      <Snackbar
+        open={noFlights}
+        autoHideDuration={6000}
+        message="No Flights Found"
+        action={
+          <IconButton
+            size="small"
+            aria-label="close"
+            color="inherit"
+            onClick={() => {setNoFlights(false)}}
+          >
+            <CloseIcon fontSize="small" />
+          </IconButton>
+        }
       />
     </Fragment>
   );
@@ -111,3 +137,4 @@ function App() {
 export default App;
 
 //show results from the rest of the world
+
