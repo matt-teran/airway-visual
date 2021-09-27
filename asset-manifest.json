@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/airway-visual/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/airway-visual/static/js/main.6bdc59f8.chunk.js",
-    "main.js.map": "/airway-visual/static/js/main.6bdc59f8.chunk.js.map",
-    "runtime-main.js": "/airway-visual/static/js/runtime-main.9ebbbbc9.js",
-    "runtime-main.js.map": "/airway-visual/static/js/runtime-main.9ebbbbc9.js.map",
-    "static/js/2.e3456eec.chunk.js": "/airway-visual/static/js/2.e3456eec.chunk.js",
-    "static/js/2.e3456eec.chunk.js.map": "/airway-visual/static/js/2.e3456eec.chunk.js.map",
-    "static/js/3.84f7be02.chunk.js": "/airway-visual/static/js/3.84f7be02.chunk.js",
-    "static/js/3.84f7be02.chunk.js.map": "/airway-visual/static/js/3.84f7be02.chunk.js.map",
-    "index.html": "/airway-visual/index.html",
-    "static/css/main.6dea0f05.chunk.css.map": "/airway-visual/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/2.e3456eec.chunk.js.LICENSE.txt": "/airway-visual/static/js/2.e3456eec.chunk.js.LICENSE.txt",
-    "static/media/earth.4dd38ecb.jpg": "/airway-visual/static/media/earth.4dd38ecb.jpg"
+    "main.css": "/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/static/js/main.6bdc59f8.chunk.js",
+    "main.js.map": "/static/js/main.6bdc59f8.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.002e1016.js",
+    "runtime-main.js.map": "/static/js/runtime-main.002e1016.js.map",
+    "static/js/2.e3456eec.chunk.js": "/static/js/2.e3456eec.chunk.js",
+    "static/js/2.e3456eec.chunk.js.map": "/static/js/2.e3456eec.chunk.js.map",
+    "static/js/3.84f7be02.chunk.js": "/static/js/3.84f7be02.chunk.js",
+    "static/js/3.84f7be02.chunk.js.map": "/static/js/3.84f7be02.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.6dea0f05.chunk.css.map": "/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.e3456eec.chunk.js.LICENSE.txt": "/static/js/2.e3456eec.chunk.js.LICENSE.txt",
+    "static/media/earth.4dd38ecb.jpg": "/static/media/earth.4dd38ecb.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.9ebbbbc9.js",
+    "static/js/runtime-main.002e1016.js",
     "static/js/2.e3456eec.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
     "static/js/main.6bdc59f8.chunk.js"
