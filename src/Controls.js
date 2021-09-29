@@ -219,14 +219,3 @@ const Controls = (props) => {
 };
 
 export default Controls;
-
-//show controls initially
-//correct width of controls
-//position controls in the center
-//correct width of autocomplete inputs
-//hide controls when search is performed
-//add fab
-//show controls when fab is pressed
-//hide fab when controls are shown
-
-//remove slide in controls and fab on desktop
