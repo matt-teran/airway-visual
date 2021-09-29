@@ -2,7 +2,6 @@
 import { useState, useEffect, Fragment } from "react";
 //mui
 import Box from "@mui/material/Box";
-import Dialog from "@mui/material/Dialog";
 import Card from "@mui/material/Card";
 import CardHeader from "@mui/material/CardHeader";
 import CardContent from "@mui/material/CardContent";
@@ -20,6 +19,9 @@ import TextField from "@mui/material/TextField";
 //date-fns
 import isToday from "date-fns/isToday";
 //styles
+import { useTheme } from '@mui/styles/';
+import useMediaQuery from '@mui/material/useMediaQuery';
+import Slide from "@mui/material/Slide";
 import makeStyles from "@mui/styles/makeStyles";
 import SearchIcon from "@mui/icons-material/Search";
 //custom components
@@ -48,7 +50,7 @@ const useStyles = makeStyles((theme) => {
         marginTop: 0,
         marginLeft: 0,
         left: "5%",
-        top: "26%",
+        top: "26vh",
       },
     },
     actions: {
@@ -66,13 +68,21 @@ const useStyles = makeStyles((theme) => {
     search: {
       zIndex: 5,
       left: "43vw",
-      top: '83vh',
+      top: "83vh",
+      visibility: "hidden",
+      [theme.breakpoints.down("sm")]: {
+        width: "40vw",
+        visibility: "visible",
+      },
     },
   };
 });
 
 const Controls = (props) => {
   const classes = useStyles();
+  const theme = useTheme();
+  const matches = useMediaQuery(theme.breakpoints.up('sm'));
+
   const [depCity, setDepCity] = useState("");
   const [arrCity, setArrCity] = useState("");
   const [checked, setChecked] = useState(true);
@@ -101,7 +111,7 @@ const Controls = (props) => {
 
   return (
     <Fragment>
-      <Dialog open={open}>
+      <Slide in={!matches ? open : true} direction="down" mountOnEnter unmountOnExit>
         <Card className={classes.container}>
           <CardHeader
             sx={{ paddingBottom: 0 }}
@@ -191,28 +201,32 @@ const Controls = (props) => {
             </CardActions>
           </CardContent>
         </Card>
-      </Dialog>
-      <Fab
-        className={classes.search}
-        sx={{ position: "absolute" }}
-        disabled={open}
-        onClick={() => {setOpen(true)}}
-      >
-        <SearchIcon color='primary'/>
-      </Fab>
+      </Slide>
+      <Slide in={!open} mountOnEnter unmountOnExit direction="up">
+        <Fab
+          className={classes.search}
+          sx={{ position: "absolute" }}
+          disabled={open}
+          onClick={() => {
+            setOpen(true);
+          }}
+        >
+          <SearchIcon color="primary" />
+        </Fab>
+      </Slide>
     </Fragment>
   );
 };
 
 export default Controls;
 
-//place controls in modal
 //show controls initially
-//hide controls when search is performed
 //correct width of controls
 //position controls in the center
 //correct width of autocomplete inputs
-
+//hide controls when search is performed
 //add fab
 //show controls when fab is pressed
 //hide fab when controls are shown
+
+//remove slide in controls and fab on desktop
