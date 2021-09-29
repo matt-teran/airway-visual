@@ -83,9 +83,10 @@ function App() {
         setLoading(false);
         setArcsData(flights);
         setArcInitialGap(1);
+        return res;
       })
       .then((res) => {
-        if (arcsData.length === 0) {
+        if (res.length === 0) {
           setNoFlights(true);
         }
       })
@@ -101,7 +102,7 @@ function App() {
   }, [arcInitialGap, arcsData]);
 
   return (
-    <Box sx={{width: '100vw', height: '100vh'}}>
+    <Fragment>
       <ThemeProvider theme={darkTheme}>
         <LocalizationProvider dateAdapter={AdapterDateFns}>
           <Controls search={searchHandler} loading={loading} />
@@ -131,7 +132,7 @@ function App() {
           </IconButton>
         }
       />
-    </Box>
+    </Fragment>
   );
 }
 

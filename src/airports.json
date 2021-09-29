@@ -12566,13 +12566,6 @@
   },
   {
     "continent": "AS",
-    "iata": "KCZ",
-    "label": "Nankoku",
-    "lng": "133.669006",
-    "lat": "33.546101"
-  },
-  {
-    "continent": "AS",
     "iata": "KDH",
     "label": "Kandahar Airport",
     "lng": "65.8478012084961",
@@ -29643,13 +29636,6 @@
     "label": "Yantai",
     "lng": "120.9872",
     "lat": "37.65722"
-  },
-  {
-    "continent": "AS",
-    "iata": "YNT",
-    "label": "Yantai",
-    "lng": "120.987222",
-    "lat": "37.657222"
   },
   {
     "continent": "AS",
