@@ -1,5 +1,7 @@
 //react
 import { useState, useEffect, Fragment } from "react";
+//axios
+import axios from "axios";
 //mui
 import Box from "@mui/material/Box";
 import Card from "@mui/material/Card";
@@ -19,26 +21,15 @@ import TextField from "@mui/material/TextField";
 //date-fns
 import isToday from "date-fns/isToday";
 //styles
-import { useTheme } from '@mui/styles/';
-import useMediaQuery from '@mui/material/useMediaQuery';
+import { useTheme } from "@mui/styles/";
+import useMediaQuery from "@mui/material/useMediaQuery";
 import Slide from "@mui/material/Slide";
 import makeStyles from "@mui/styles/makeStyles";
 import SearchIcon from "@mui/icons-material/Search";
 //custom components
-//other
-import airports from "./airports.json";
 
 const useStyles = makeStyles((theme) => {
   return {
-    root: {
-      // [theme.breakpoints.down("sm")]: {
-      //   height: "100vh",
-      //   width: "96vw",
-      //   display: "flex",
-      //   justifyContent: "center",
-      //   alignItems: "center",
-      // },
-    },
     container: {
       marginTop: "2vw",
       marginLeft: "2vw",
@@ -81,8 +72,9 @@ const useStyles = makeStyles((theme) => {
 const Controls = (props) => {
   const classes = useStyles();
   const theme = useTheme();
-  const matches = useMediaQuery(theme.breakpoints.up('sm'));
+  const matches = useMediaQuery(theme.breakpoints.up("sm"));
 
+  const [airportLabels, setAirportLabels] = useState([]);
   const [depCity, setDepCity] = useState("");
   const [arrCity, setArrCity] = useState("");
   const [checked, setChecked] = useState(true);
@@ -90,28 +82,32 @@ const Controls = (props) => {
   const [open, setOpen] = useState(true);
 
   useEffect(() => {
+    axios.get("http://localhost:3000/airports/labels").then((res) => {
+      setAirportLabels(res.data);
+    });
+  }, []);
+  
+  useEffect(() => {
     if (!isToday(date)) setChecked(false);
   }, [date]);
 
   const searchHandler = () => {
-    props.search(
-      airports.find((airport) => {
-        if (Boolean(depCity)) {
-          return airport.label === depCity;
-        } else {
-          return airport.label === arrCity;
-        }
-      }),
-      date,
-      checked,
-      Boolean(depCity)
-    );
+    axios
+      .get(`http://localhost:3000/airports?iata[]=${depCity || arrCity}`)
+      .then((res) => {
+        props.search(res.data[0], date, checked, Boolean(depCity));
+      });
     setOpen(false);
   };
 
   return (
     <Fragment>
-      <Slide in={!matches ? open : true} direction="down" mountOnEnter unmountOnExit>
+      <Slide
+        in={!matches ? open : true}
+        direction="down"
+        mountOnEnter
+        unmountOnExit
+      >
         <Card className={classes.container}>
           <CardHeader
             sx={{ paddingBottom: 0 }}
@@ -125,7 +121,7 @@ const Controls = (props) => {
               <Box sx={{ display: "flex", marginBottom: 2 }}>
                 <Autocomplete
                   className={classes.citySelector}
-                  options={airports}
+                  options={airportLabels} //GET airports name + iata code
                   getOptionLabel={(airport) =>
                     airport.label + " (" + airport.iata + ")"
                   }
@@ -133,13 +129,14 @@ const Controls = (props) => {
                     <TextField {...params} label="Departure City" />
                   )}
                   onInputChange={(ev, value) => {
-                    setDepCity(value.split(" (")[0]);
+                    console.log(value.split(")")[0].split("(")[1]);
+                    setDepCity(value.split(")")[0].split("(")[1]); //extracts IATA code from string
                   }}
                   disabled={arrCity !== ""}
                 />
                 <Autocomplete
                   className={classes.citySelector}
-                  options={airports}
+                  options={airportLabels} //GET airports name + iata code
                   getOptionLabel={(airport) =>
                     airport.label + " (" + airport.iata + ")"
                   }
@@ -147,7 +144,7 @@ const Controls = (props) => {
                     <TextField {...params} label="Arrival City" />
                   )}
                   onInputChange={(ev, value) => {
-                    setArrCity(value.split(" (")[0]);
+                    setArrCity(value.split(")")[0].split("(")[1]); //extracts IATA code from string
                   }}
                   disabled={depCity !== ""}
                 />

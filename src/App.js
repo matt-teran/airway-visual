@@ -5,8 +5,8 @@ import LocalizationProvider from "@mui/lab/LocalizationProvider";
 import AdapterDateFns from "@mui/lab/AdapterDateFns";
 import Snackbar from "@mui/material/Snackbar";
 
-import IconButton from '@mui/material/IconButton';
-import CloseIcon from '@mui/icons-material/Close'
+import IconButton from "@mui/material/IconButton";
+import CloseIcon from "@mui/icons-material/Close";
 import ThemeProvider from "@mui/material/styles/ThemeProvider";
 import createTheme from "@mui/material/styles/createTheme";
 //react-globe.gl
@@ -42,7 +42,7 @@ function App() {
           [iata]: airport.iata,
           flight_status: activeFlights ? "active" : "scheduled",
         },
-      })
+      }) // forward this GET request to backend ... GET /flights
       .then((res) => {
         flights = res.data.data.reduce((result, flight) => {
           if (
@@ -50,25 +50,25 @@ function App() {
               isDeparture
                 ? airport.iata === flight.arrival.iata
                 : airport.iata === flight.departure.iata
-            ) !== -1
+            ) !== -1 // GET /airports?iata=[FLIGHT.ARRIVAL/FLIGHT.DEPARTURE]
           ) {
             result.push({
               startLat: isDeparture
                 ? airport.lat
                 : airports.find(
                     (airport) => airport.iata === flight.departure.iata
-                  ).lat,
+                  ).lat, //GET /airports?iata=[FLIGHT.DEPARTURE.IATA]
               startLng: isDeparture
                 ? airport.lng
                 : airports.find(
                     (airport) => airport.iata === flight.departure.iata
-                  ).lng,
+                  ).lng, //GET /airports?iata=[FLIGHT.DEPARTURE.IATA]
               endLat: airports.find(
                 (airport) => airport.iata === flight.arrival.iata
-              ).lat,
+              ).lat, //GET /airports?iata=[FLIGHT.ARRIVAL.IATA]
               endLng: airports.find(
                 (airport) => airport.iata === flight.arrival.iata
-              ).lng,
+              ).lng, //GET /airports?iata=[FLIGHT.ARRIVAL.IATA]
               color: "red",
               label: flight.departure.iata + "=>" + flight.arrival.iata,
               stroke: 0.5,
@@ -125,7 +125,9 @@ function App() {
             size="small"
             aria-label="close"
             color="inherit"
-            onClick={() => {setNoFlights(false)}}
+            onClick={() => {
+              setNoFlights(false);
+            }}
           >
             <CloseIcon fontSize="small" />
           </IconButton>
