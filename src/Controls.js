@@ -74,29 +74,32 @@ const Controls = (props) => {
   const theme = useTheme();
   const matches = useMediaQuery(theme.breakpoints.up("sm"));
 
-  const [airportLabels, setAirportLabels] = useState([]);
+  const [airports, setAirports] = useState([]);
   const [depCity, setDepCity] = useState("");
   const [arrCity, setArrCity] = useState("");
   const [checked, setChecked] = useState(true);
   const [date, setDate] = useState(new Date());
   const [open, setOpen] = useState(true);
 
+  //update localhost to actual airport api
   useEffect(() => {
-    axios.get("http://localhost:3000/airports/labels").then((res) => {
-      setAirportLabels(res.data);
+    axios.get("http://localhost:3000/airports").then((res) => {
+      setAirports(res.data);
     });
   }, []);
-  
+
   useEffect(() => {
     if (!isToday(date)) setChecked(false);
   }, [date]);
-
+  
   const searchHandler = () => {
-    axios
-      .get(`http://localhost:3000/airports?iata[]=${depCity || arrCity}`)
-      .then((res) => {
-        props.search(res.data[0], date, checked, Boolean(depCity));
-      });
+    props.search(
+      airports.find((airport) => airport.iata === depCity || arrCity),
+      date,
+      checked,
+      Boolean(depCity),
+      airports
+    );
     setOpen(false);
   };
 
@@ -121,7 +124,7 @@ const Controls = (props) => {
               <Box sx={{ display: "flex", marginBottom: 2 }}>
                 <Autocomplete
                   className={classes.citySelector}
-                  options={airportLabels} //GET airports name + iata code
+                  options={airports}
                   getOptionLabel={(airport) =>
                     airport.label + " (" + airport.iata + ")"
                   }
@@ -129,14 +132,13 @@ const Controls = (props) => {
                     <TextField {...params} label="Departure City" />
                   )}
                   onInputChange={(ev, value) => {
-                    console.log(value.split(")")[0].split("(")[1]);
                     setDepCity(value.split(")")[0].split("(")[1]); //extracts IATA code from string
                   }}
-                  disabled={arrCity !== ""}
+                  disabled={Boolean(arrCity)}
                 />
                 <Autocomplete
                   className={classes.citySelector}
-                  options={airportLabels} //GET airports name + iata code
+                  options={airports}
                   getOptionLabel={(airport) =>
                     airport.label + " (" + airport.iata + ")"
                   }
@@ -146,7 +148,7 @@ const Controls = (props) => {
                   onInputChange={(ev, value) => {
                     setArrCity(value.split(")")[0].split("(")[1]); //extracts IATA code from string
                   }}
-                  disabled={depCity !== ""}
+                  disabled={Boolean(depCity)}
                 />
               </Box>
 

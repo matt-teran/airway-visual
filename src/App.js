@@ -17,7 +17,6 @@ import axios from "axios";
 import Controls from "./Controls";
 //assets
 import earth from "./earth.jpg";
-import airports from "./airports.json";
 
 const darkTheme = createTheme({
   palette: {
@@ -31,44 +30,50 @@ function App() {
   const [loading, setLoading] = useState(false);
   const [noFlights, setNoFlights] = useState(false);
 
-  const searchHandler = (airport, date, activeFlights, isDeparture) => {
+  const searchHandler = (
+    airport,
+    date,
+    activeFlights,
+    isDeparture,
+    airports
+  ) => {
     setLoading(true);
     let flights;
     const iata = isDeparture ? "dep_iata" : "arr_iata";
+    //update localhost:3000
     axios
-      .get("http://api.aviationstack.com/v1/flights", {
+      .get("http://localhost:3000/flights", {
         params: {
-          access_key: "9584c354034b2a3ac2d393611a910f35",
           [iata]: airport.iata,
           flight_status: activeFlights ? "active" : "scheduled",
         },
-      }) // forward this GET request to backend ... GET /flights
+      })
       .then((res) => {
-        flights = res.data.data.reduce((result, flight) => {
+        flights = res.data.reduce((result, flight) => {
           if (
             airports.findIndex((airport) =>
               isDeparture
                 ? airport.iata === flight.arrival.iata
                 : airport.iata === flight.departure.iata
-            ) !== -1 // GET /airports?iata=[FLIGHT.ARRIVAL/FLIGHT.DEPARTURE]
+            ) !== -1
           ) {
             result.push({
               startLat: isDeparture
                 ? airport.lat
                 : airports.find(
                     (airport) => airport.iata === flight.departure.iata
-                  ).lat, //GET /airports?iata=[FLIGHT.DEPARTURE.IATA]
+                  ).lat,
               startLng: isDeparture
                 ? airport.lng
                 : airports.find(
                     (airport) => airport.iata === flight.departure.iata
-                  ).lng, //GET /airports?iata=[FLIGHT.DEPARTURE.IATA]
+                  ).lng,
               endLat: airports.find(
                 (airport) => airport.iata === flight.arrival.iata
-              ).lat, //GET /airports?iata=[FLIGHT.ARRIVAL.IATA]
+              ).lat,
               endLng: airports.find(
                 (airport) => airport.iata === flight.arrival.iata
-              ).lng, //GET /airports?iata=[FLIGHT.ARRIVAL.IATA]
+              ).lng,
               color: "red",
               label: flight.departure.iata + "=>" + flight.arrival.iata,
               stroke: 0.5,
@@ -118,7 +123,7 @@ function App() {
       />
       <Snackbar
         open={noFlights}
-        autoHideDuration={6000}
+        autoHideDuration={500}
         message="No Flights Found"
         action={
           <IconButton
