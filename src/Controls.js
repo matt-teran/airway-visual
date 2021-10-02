@@ -83,7 +83,7 @@ const Controls = (props) => {
 
   //update localhost to actual airport api
   useEffect(() => {
-    axios.get("http://localhost:3000/airports").then((res) => {
+    axios.get("https://airway-visual.herokuapp.com/airports").then((res) => {
       setAirports(res.data);
     });
   }, []);
@@ -91,7 +91,7 @@ const Controls = (props) => {
   useEffect(() => {
     if (!isToday(date)) setChecked(false);
   }, [date]);
-  
+
   const searchHandler = () => {
     props.search(
       airports.find((airport) => airport.iata === depCity || arrCity),

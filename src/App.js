@@ -42,7 +42,7 @@ function App() {
     const iata = isDeparture ? "dep_iata" : "arr_iata";
     //update localhost:3000
     axios
-      .get("http://localhost:3000/flights", {
+      .get("https://airway-visual.herokuapp.com/flights", {
         params: {
           [iata]: airport.iata,
           flight_status: activeFlights ? "active" : "scheduled",
